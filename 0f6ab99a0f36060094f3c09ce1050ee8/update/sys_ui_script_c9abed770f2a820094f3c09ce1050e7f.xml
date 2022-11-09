@@ -3,6 +3,7 @@
         <active>true</active>
         <description>The HTML Reporter for the Xplore UI</description>
         <global>false</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
         <name>snd_xplore_reporter</name>
         <script><![CDATA[var snd_xplore_reporter = (function () {
 

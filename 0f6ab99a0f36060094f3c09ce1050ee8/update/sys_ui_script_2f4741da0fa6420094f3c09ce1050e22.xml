@@ -3,6 +3,7 @@
         <active>true</active>
         <description>The Xplore UI runner script used on /snd_xplore.do</description>
         <global>false</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
         <name>snd_xplore</name>
         <script><![CDATA[/* -----------------------------------------------------
                         XPLORE

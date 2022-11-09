@@ -3,6 +3,7 @@
         <active>true</active>
         <description>Allow UI Context Menus to open a prebuilt script for admins to use in Xplore</description>
         <global>true</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
         <name>snd_xplore_shortcuts</name>
         <script><![CDATA[/**
  * Allow UI Context Menus to open a prebuilt script for admins to use in Xplore.

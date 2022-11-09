@@ -42,6 +42,7 @@
         <sys_updated_on>2020-11-26 10:48:09</sys_updated_on>
         <table_name>ZZ_YYdb_image</table_name>
         <table_sys_id>eba215d4dbbce810d78869091396190c</table_sys_id>
+        <u_private>false</u_private>
         <u_table_id/>
     </sys_attachment>
     <sys_attachment_doc action="INSERT_OR_UPDATE">
