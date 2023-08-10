@@ -10,7 +10,7 @@
         <path>snd_xplore</path>
         <path_endpoint/>
         <require_csrf>false</require_csrf>
-        <roles/>
+        <roles>snc_internal</roles>
         <script><![CDATA[/*!
   Processor for generating the user interface and handling AJAX calls.
 */
