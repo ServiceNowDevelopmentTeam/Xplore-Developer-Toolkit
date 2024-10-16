@@ -1,0 +1,18 @@
+# azure-pipelines.yml (in each repo)
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: APi Connect Continuous Improvement/Pipeline Templates
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+  
+extends:
+  template: github-cloning-pipelines-template.yml@templates
+  parameters:
+    repoName: $(Build.Repository.Name)
+    branchName: $(Build.SourceBranchName)
